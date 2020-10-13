@@ -7,11 +7,11 @@ categories:
 tags:
  - 标签一
  - 标签二
-publish: false
+publish: true
 sidebar: true 
-keys: 
- - '123456'
+keys: '123456'
 sticky: false
+isShowComments: true
 ---
 # Vue
 ## 1

@@ -44,7 +44,15 @@ module.exports = {
               text: 'Tag'      // 默认文案 “标签”
             }
         },
-        subSidebar: 'auto'
+        subSidebar: 'auto',
+        vssueConfig:{
+          showComment: false,
+          platform: 'github',
+          owner: 'yung-twist',
+          repo: 'Zone',
+          clientId: '52350cffe80fd73e8a86',
+          clientSecret: 'f60060dcd555ad86b82a9f4b4b1056e8823d9050'
+        }
     },
     
     plugins: [
