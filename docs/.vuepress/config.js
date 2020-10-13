@@ -11,6 +11,7 @@ module.exports = {
     ],
     // 主题配置
     themeConfig: {
+        base:'/Zone/', 
         logo: '/logo.jpg',
         type: 'blog',
         authorAvatar: '/avatar.gif',
