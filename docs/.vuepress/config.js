@@ -1,4 +1,5 @@
 module.exports = {
+    base:'/Zone/', 
     title: 'Zone', // 顶部标题
     description: '闲人小事', // 网站描述
     theme: 'reco', // 引用主题
@@ -11,7 +12,6 @@ module.exports = {
     ],
     // 主题配置
     themeConfig: {
-        base:'/Zone/', 
         logo: '/logo.jpg',
         type: 'blog',
         authorAvatar: '/avatar.gif',
