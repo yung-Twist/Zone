@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "d": "bash deploy.sh"
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
