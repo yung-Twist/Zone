@@ -1,0 +1,17 @@
+{
+  "name": "zone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "d": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "vuepress": "^1.6.0",
+    "vuepress-theme-reco": "^1.5.7"
+  }
+}
