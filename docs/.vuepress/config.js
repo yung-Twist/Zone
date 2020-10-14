@@ -48,10 +48,11 @@ module.exports = {
         vssueConfig:{
           showComment: false,
           platform: 'github',
-          owner: 'yung-twist',
+          owner: 'yung-Twist',
           repo: 'Zone',
           clientId: '52350cffe80fd73e8a86',
-          clientSecret: 'f60060dcd555ad86b82a9f4b4b1056e8823d9050'
+          clientSecret: 'f60060dcd555ad86b82a9f4b4b1056e8823d9050',
+          // autoCreateIssue:true
         }
     },
     
@@ -60,7 +61,7 @@ module.exports = {
           // 看板娘插件
           "@vuepress-reco/vuepress-plugin-kan-ban-niang",
           {
-            theme: ['z16', 'haru1', 'haru2', 'izumi', 'shizuku', 'wanko', 'miku'],
+            theme: ['haru2', 'z16', 'haru1', 'izumi', 'shizuku', 'wanko', 'miku'],
             clean: false,
             modelStyle: {
               left: "60px",

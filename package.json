@@ -10,6 +10,8 @@
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
     "vuepress": "^1.6.0",
     "vuepress-theme-reco": "^1.5.7"
   }

@@ -9,7 +9,6 @@ tags:
  - 标签二
 publish: true
 sidebar: true 
-keys: '123456'
 sticky: false
 isShowComments: true
 ---
@@ -21,3 +20,4 @@ ff
 :::
 ## 2
 ddd<br>
+<Test/>
