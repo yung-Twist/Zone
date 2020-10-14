@@ -15,7 +15,6 @@ module.exports = {
         logo: '/logo.jpg',
         type: 'blog',
         authorAvatar: '/avatar.gif',
-        theme:['z16', 'shizuku', 'wanko'],
         // 导航栏链接
         nav: [
             { 
@@ -33,6 +32,8 @@ module.exports = {
         // GitHub
         repo: 'yung-Twist',
         repoLabel: 'GitHub',
+        // editLinks: true,
+        // editLinkText: '编辑此页',
         // 博客配置
         blogConfig: {
             category: {
@@ -44,7 +45,8 @@ module.exports = {
               text: 'Tag'      // 默认文案 “标签”
             }
         },
-        subSidebar: 'auto',
+        sidebar: 'auto',
+        // 评论配置
         vssueConfig:{
           showComment: false,
           platform: 'github',
