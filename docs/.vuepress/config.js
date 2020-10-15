@@ -1,5 +1,5 @@
 module.exports = {
-    base:'/Zone/', 
+    // base:'/Zone/', 
     title: 'Zone', // 顶部标题
     description: '闲人小事', // 网站描述
     theme: 'reco', // 引用主题
