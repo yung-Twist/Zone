@@ -1,5 +1,5 @@
 module.exports = {
-    // base:'/Zone/', 
+    // base:'/Zone/', // 绑定自己的域名不需要 base ,使用 yung-Twist.github.io/zone 需要配置base
     title: 'Zone', // 顶部标题
     description: '闲人小事', // 网站描述
     theme: 'reco', // 引用主题
