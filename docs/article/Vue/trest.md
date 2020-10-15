@@ -1,16 +1,13 @@
 ---
-title: 文章模板
+title: trest
 date: 2019-08-08
 categories:
  - 烹饪
- - 爱好
 tags:
- - 标签一
- - 标签二
+ - 标签sa
 publish: true
-sidebar: auto
-sticky: false
-isShowComments: true
+sidebar: true 
+isShowComments: false
 ---
 # Vue
 ## 1

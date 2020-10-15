@@ -12,7 +12,7 @@ module.exports = {
     ],
     // 主题配置
     themeConfig: {
-        logo: '/logo.jpg',
+        // logo: '/logo.jpg',
         type: 'blog',
         authorAvatar: '/avatar.gif',
         // 导航栏链接
@@ -28,6 +28,13 @@ module.exports = {
                 ]
             }
         ],
+        sidebar: {
+          '/article/Vue/':[
+            '',
+            'trest'
+          ]
+        },
+        displayAllHeaders: true,
         lastUpdated: '最后更新时间',
         // GitHub
         repo: 'yung-Twist',
@@ -45,7 +52,6 @@ module.exports = {
               text: 'Tag'      // 默认文案 “标签”
             }
         },
-        sidebar: 'auto',
         // 评论配置
         vssueConfig:{
           showComment: false,
@@ -64,7 +70,8 @@ module.exports = {
           "@vuepress-reco/vuepress-plugin-kan-ban-niang",
           {
             theme: ['haru2', 'z16', 'haru1', 'izumi', 'shizuku', 'wanko', 'miku'],
-            clean: false,
+            // 隐藏所有按钮
+            clean: true, 
             modelStyle: {
               left: "60px",
               bottom: "0px",
