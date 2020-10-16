@@ -12,7 +12,7 @@ module.exports = {
     ],
     // 主题配置
     themeConfig: {
-        // logo: '/logo.jpg',
+        logo: '/logo.jpg',
         type: 'blog',
         authorAvatar: '/avatar.gif',
         // 导航栏链接
@@ -32,7 +32,26 @@ module.exports = {
           '/article/Vue/':[
             '',
             'trest'
-          ]
+          ],
+          // '/views/sidebargroup/': [
+          //   {
+          //     title: '基础',
+          //     collapsable: true,
+          //     children: [
+          //       '',
+          //       'bar1'
+          //     ]
+          //   },
+          //   {
+          //      title: 'Group 1',   // 必要的
+          //      path: '/foo/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+          //      collapsable: false, // 可选的, 默认值是 true,
+          //      sidebarDepth: 1,    // 可选的, 默认值是 1
+          //      children: [
+          //          '/'
+          //      ]
+          //   },
+          // ]
         },
         displayAllHeaders: true,
         lastUpdated: '最后更新时间',
@@ -45,7 +64,7 @@ module.exports = {
         blogConfig: {
             category: {
               location: 2,     // 在导航栏菜单中所占的位置，默认2
-              text: 'Category' // 默认文案 “分类”
+              text: '分类' // 默认文案 “分类”
             },
             tag: {
               location: 3,     // 在导航栏菜单中所占的位置，默认3
@@ -73,7 +92,7 @@ module.exports = {
             // 隐藏所有按钮
             clean: true, 
             modelStyle: {
-              left: "60px",
+              left: "20px",
               bottom: "0px",
               opacity: "0.9",
               zIndex: 99999
@@ -94,6 +113,10 @@ module.exports = {
               bottom: '240px',
             }
           }
-        ]
+        ],
+        // 复制代码
+        ['vuepress-plugin-code-copy', {
+          successText: '复制成功'
+        }]
     ]
 }

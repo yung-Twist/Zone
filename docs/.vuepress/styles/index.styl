@@ -1,1 +1,28 @@
 // 修改默认 class 
+h2
+  position relative
+  padding-left 0.8rem
+  font-size 1.4rem
+  &::before
+    position: absolute
+    left 0
+    bottom 0
+    display: block
+    height 1.8rem
+    content: ''
+    border-left 5px solid $accentColor
+h3 
+	position relative
+	padding-left 0.8rem
+	font-size 1.2rem
+	&::before
+		position: absolute
+		left 0
+		bottom 0
+		display: block
+		content: '#'
+		color $accentColor
+		display none
+	&:hover
+		&::before 
+			display block

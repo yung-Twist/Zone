@@ -1,13 +1,13 @@
 ---
 title: 文章模板
 date: 2019-08-08
-categories:
- - 烹饪
- - 爱好
-tags:
- - 标签一
- - 标签二
-publish: true
+# categories:
+#  - 烹饪
+#  - 爱好
+# tags:
+#  - 标签一
+#  - 标签二
+publish: false
 sidebar: auto
 sticky: false
 isShowComments: true

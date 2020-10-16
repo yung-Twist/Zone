@@ -14,5 +14,8 @@
     "sass-loader": "^10.0.3",
     "vuepress": "^1.6.0",
     "vuepress-theme-reco": "^1.5.7"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
   }
 }
