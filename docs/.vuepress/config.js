@@ -31,7 +31,7 @@ module.exports = {
                     },
                     {
                       text:'canvas',
-                      link:'/article/canvas'
+                      link:'/article/canvas/'
                     }
                 ]
             }
