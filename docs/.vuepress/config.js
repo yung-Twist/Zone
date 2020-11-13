@@ -24,6 +24,14 @@ module.exports = {
                     {
                         text:'Vue',
                         link:'/article/Vue/'
+                    },
+                    {
+                        text:'JS',
+                        link:'/article/JS/'
+                    },
+                    {
+                      text:'canvas',
+                      link:'/article/canvas'
                     }
                 ]
             }
