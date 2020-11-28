@@ -32,6 +32,10 @@ module.exports = {
                     {
                       text:'canvas',
                       link:'/article/canvas/'
+                    },
+                    {
+                      text:'CSS',
+                      link:'/article/CSS/'
                     }
                 ]
             }
@@ -40,6 +44,10 @@ module.exports = {
           '/article/Vue/':[
             '',
             'trest'
+          ],
+          '/article/CSS/':[
+            '',
+            'trapezoid'
           ],
           // '/views/sidebargroup/': [
           //   {
