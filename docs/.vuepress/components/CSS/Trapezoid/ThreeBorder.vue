@@ -35,14 +35,14 @@ export default {
 <style scoped lang="less">
 
 .threeBorder{
-    height: 250px;
+    // height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     .threeItem{
         flex:1;
-        height: 100%;
+        // height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
