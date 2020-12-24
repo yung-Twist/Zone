@@ -43,7 +43,7 @@ module.exports = {
         sidebar: {
           '/article/Vue/':[
             '',
-            'trest'
+            'mock'
           ],
           '/article/CSS/':[
             '',
