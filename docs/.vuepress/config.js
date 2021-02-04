@@ -4,7 +4,7 @@ module.exports = {
     description: '闲人小事', // 网站描述
     theme: 'reco', // 引用主题
     markdown: {
-        lineNumbers:false // 是否在每个代码块的左侧显示行号。
+        lineNumbers:true // 是否在每个代码块的左侧显示行号。
     },
     head: [ // 注入到当前页面的 HTML <head> 中的标签
         ['link', { rel: 'icon', href: '/favicon.png' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -48,7 +48,8 @@ module.exports = {
           ],
           '/article/CSS/':[
             '',
-            'trapezoid'
+            'trapezoid',
+            'eleSizeScroll'
           ],
           // '/views/sidebargroup/': [
           //   {

@@ -1,6 +1,8 @@
 ---
 title: Vue中使用mock
 date: 2020-12-24
+categories:
+ - Vue
 tags:
  - mock
  - axios
