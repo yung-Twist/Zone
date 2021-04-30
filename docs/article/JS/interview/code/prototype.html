@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Person(){
+    
+        }
+        const person = new Person()
+        console.log(Person.prototype)
+        console.log(person.__proto__ === Person.prototype)
+        console.log(Person.prototype.constructor === Person)
+        console.log(Person.prototype.__proto__ == Object.prototype)
+        Person.prototype.name = "原型上的name属性";
+        person.name = "实例上的name属性";
+        console.log(person.name) // 实例上的name属性
+
+        delete person.name;
+        console.log(person.name); // 原型上的name属性
+
+        delete Person.prototype.name;
+        console.log(person.name); // undefined
+    </script>
+</body>
+</html>

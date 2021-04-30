@@ -51,6 +51,17 @@ module.exports = {
             'trapezoid',
             'eleSizeScroll'
           ],
+          '/article/JS/':[
+            '',
+            {
+              title:'必知必会',
+              collapsable: true,
+              children:[
+                'Interview',
+                'interview/prototype'
+              ]
+            },
+          ],
           // '/views/sidebargroup/': [
           //   {
           //     title: '基础',
